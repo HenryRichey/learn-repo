@@ -1,6 +1,6 @@
 with source as (
 
-  select * from source_date.reviews
+  select * from source_data.reviews
 
 ),
 
