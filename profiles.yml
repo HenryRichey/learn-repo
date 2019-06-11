@@ -1,0 +1,9 @@
+learn-project: target: dev outputs:
+dev:
+type: redshift
+threads: 4
+host: redshift.learn.getdbt.com
+user: henry
+pass: Xsb8o17hIfrQiZKF port: 5439
+dbname: learn
+schema: dbt_henry
