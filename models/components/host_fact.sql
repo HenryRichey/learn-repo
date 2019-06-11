@@ -18,3 +18,4 @@ select
   ,avg(response_rate) as response_rate
 
 from listings
+group by host_name

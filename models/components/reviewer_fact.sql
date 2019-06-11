@@ -12,3 +12,4 @@ select
   ,count(distinct listing_id) as listings_cnt
 
 from reviews
+group by reviewer_name
