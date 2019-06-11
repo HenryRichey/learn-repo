@@ -3,7 +3,7 @@ with listings as (
 ),
 reviews as (
   select * from {{ ref('stg_reviews') }}
-),
+)
 
 select
   reviewer_name
